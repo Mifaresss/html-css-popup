@@ -101,13 +101,12 @@ body {
 	overflow-y: scroll;
 	overflow-x: hidden;
 	z-index: 100;
-}
-.popup-button:checked ~ .popup {
-	top: 75px;
-	right: -85px;
 	border: 2px solid #212121;
 	border-radius: 5px;
 	padding: 20px 35px;
+}
+.popup-button:checked ~ .popup {
+	top: 75px;
 }
 .popup__list {
 	display: grid;
@@ -209,5 +208,22 @@ body {
 	}
 	.popup__link {
 		font-size: 14px;
+	}
+	.popup-sub-button:focus {
+		/* top: 298.5px;
+		left: 140.5px; */
+		top: 298.5px;
+		left: 123.2px;
+	}
+	.popup-sub-button:checked ~ .popup__sub-list {
+		top: 365px;
+		gap: 25px;
+	}
+	.popup__sub-list {
+		width: 256.48px;
+	}
+	.sub-label span {
+		right: -84.5px;
+		top: -5px;
 	}
 }
