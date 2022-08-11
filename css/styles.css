@@ -40,7 +40,7 @@ body {
 }
 .header__container {
 	max-width: 500px;
-	margin-right: 50px;
+	margin-right: 45px;
 	margin-left: auto;
 	display: flex;
 	align-items: center;
@@ -195,16 +195,13 @@ body {
 	flex-shrink: 1;
 	padding-left: 15px;
 }
-.arrow {
-	/* margin-right: auto; */
-}
 
 @media (max-width: 735px) {
 	.popup {
-		right: -140px;
+		right: -104px;
+		padding: 20px 20px;
 	}
 	.arrow {
-		/* display: none; */
 		width: 100%;
 	}
 	.header__container {
