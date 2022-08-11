@@ -95,7 +95,7 @@ body {
 .popup {
 	position: absolute;
 	top: -1000px;
-	right: -85px;
+	right: -185px;
 	transition: all 0.8s;
 	height: 500px;
 	overflow-y: scroll;
@@ -189,13 +189,22 @@ body {
 .popup__img {
 	width: 60px;
 }
-.arrow {
+.wrapper__img {
 	margin-right: auto;
+	flex-shrink: 1;
+	padding-left: 15px;
+}
+.arrow {
+	/* margin-right: auto; */
 }
 
 @media (max-width: 735px) {
+	.popup {
+		right: -140px;
+	}
 	.arrow {
-		display: none;
+		/* display: none; */
+		width: 100%;
 	}
 	.header__container {
 		margin: 0 auto;
@@ -210,8 +219,6 @@ body {
 		font-size: 14px;
 	}
 	.popup-sub-button:focus {
-		/* top: 298.5px;
-		left: 140.5px; */
 		top: 298.5px;
 		left: 123.2px;
 	}
