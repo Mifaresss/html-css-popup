@@ -213,13 +213,6 @@ body {
 		top: 296.5px;
 		left: 113.5px;
 	}
-	.popup-sub-button:checked ~ .popup__sub-list {
-		top: 365px;
-		gap: 25px;
-	}
-	.popup__sub-list {
-		width: 256.48px;
-	}
 	.sub-label span {
 		right: 89px;
 		top: 18px;
